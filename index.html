@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scaled Mint Calendar</title>
+    <title>2 Mint Calendar</title>
 
     <style>
+	    .scaling-wrapper {
+    transform: scale(.75); /* Default scale 100% */
+    transform-origin: top left; /* Adjust as needed */
+        }
         body {
     font-family: monospace;
 
@@ -19,11 +23,6 @@
     flex-direction: column;
     min-height: 100%;
 }
-
-.scaling-wrapper {
-    transform: scale(.75); /* Default scale 100% */
-    transform-origin: top left; /* Adjust as needed */
-        }
 
 #calendar {
     margin:  0 auto;
